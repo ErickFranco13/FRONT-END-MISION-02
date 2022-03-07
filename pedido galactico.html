@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantar pedido</title>
+</head>
+<body>
+    <h1>Aquí se hace el pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu nombre, Visitante!!</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br><br>
+
+        <label for="mesa">seleccione su mesa!(el numero de abajo)</label><br>
+        <input type="text" id="mesa" name="mesa" placeholder="13">
+        
+        <p>¿ para comer aqui para llevar o a domicilio??</p>
+        <input type="radio" id="aqui" name="aquiollevar" value="Aqui">
+        <label for="aqui">Aqui</label><br>
+        <input type="radio" id="llevar" name="llevar" value="Llevar">
+        <label for="Llevar">Llevar</label><br>
+        <input type="radio" id="a domicilio" name=" a domicilio" value=" a domicilio">
+        <label for=" a domicilio" > a domicilio</label><br>
+
+        <p>¿Tipo de pastel?  o un sandwich??</p>
+        <input type="checkbox" id="conejo lunar" name="conejo lunar" value="conejo lunar">
+        <label for="conejo lunar">conejo lunar</label>
+        <input type="number" id="conejolunarCuantos" name="conejolunarCuantos" value="¿Cuantos serian?"><br>
+        <input type="checkbox" id="El clasico" name="El clasico" value="El clasico">
+        <label for="El clasico">El clasico</label>
+        <input type="number" id="ElclasicoCuantos" name="ElclasicoCuantos" value="¿Cuantos?"><br>
+        
+        <p>gusta alguna bebida?</p>
+        <select name="bebidaslunares" id="bebidaslunares">
+            <option value="Jamaica">Jamaica</option>
+            <option value="fanta">fanta</option>
+            <option value="fusion citrica">fusion citrica</option>
+            <option value="Te helado">Te helado</option>
+            <option value="pina colada">pina colada</option>
+            <option value="horchata">horchata</option>
+            <option value="agua de sandia">agua de sandia</option>
+        </select>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+
+    </form>
+
+</body>
+</html>
